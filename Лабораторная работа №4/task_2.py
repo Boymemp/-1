@@ -11,7 +11,6 @@ def task() -> None:
     with open(INPUT_FILENAME, 'r') as file:
         reader = csv.DictReader(file)
         data = []
-        # Чтение данных
         for row in reader:
             data.append(row)
 
